@@ -11,7 +11,7 @@ app.get("/", async (req, res) => {
     const pdfBuffer = fs.readFileSync(path.resolve("./assets/test.pdf"))
 
     const signature = 'Your Name'
-    const password = '22059'
+    const password = 'PASSWORD_P12'
     const signedPdf = sign(pdfBuffer, p12Buffer, password, {
         reason: 'Test',
         email: 'mail@mail.com',
