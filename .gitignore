@@ -3,3 +3,4 @@ certs/*
 yarn.lock
 assets/*
 !assets/test.pdf
+!certs/.gitkeep
